@@ -11,23 +11,33 @@ html {
 }
 
 body {
+  padding: 2em, .5em;
   display: inline-block;
 }
 
-h1 {
-  color: #333;
-  font-weight: bold;
+body:not(.damn) {
   display: block;
+}
+
+img {
+
+}
+
+h1 {
+  color: black;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
 }
 
 p {
   color: #666;
+  margin-bottom: 2.5rem
 }
 
 a {
   padding: .75em;
   border: 3px solid #333;
-  border-radius: 5px;
+  border-radius: 7px;
   color: #666;
   text-decoration: none;
 }
