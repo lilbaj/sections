@@ -11,6 +11,8 @@ html {
 
 body {
   padding: 3em 1em;
+  margin: 0;
+  text-align: left;
 }
 
 header {
@@ -18,9 +20,6 @@ header {
   max-width: 25em;
 }
 
-img {
-
-}
 h1 {
   color: black;
   font-weight: bold;
