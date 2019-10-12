@@ -3,7 +3,6 @@ html {
   background-color: #eee9de;
   font-family: 'Lato', sans-serif;
   line-height: 1.5rem;
-  max-width: 25em;
 }
 
 *, *::before, *::after {
@@ -12,15 +11,11 @@ html {
 
 body {
   padding: 2em, .5em;
+}
+
+header {
   display: inline-block;
-}
-
-body:not(.damn) {
-  display: block;
-}
-
-img {
-
+  max-width: 25em;
 }
 
 h1 {
@@ -29,9 +24,13 @@ h1 {
   margin-bottom: 1.5rem;
 }
 
+main {
+  display: inline-block;
+  max-width: 25em;
+}
 p {
   color: #666;
-  margin-bottom: 2.5rem
+  margin-bottom: 2.5rem;
 }
 
 a {
