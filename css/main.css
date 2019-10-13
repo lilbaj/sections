@@ -10,15 +10,16 @@ html {
 }
 
 body {
-  padding: 3em 1em 0;
   margin: 0;
+}
+
+section {
+  padding: 2em 0;
   vertical-align: middle;
   text-align: left;
 }
 
 img {
-  padding: 0 2em 1em 0;
-  display: block;
   width: 100%;
   margin: 0 auto;
 }
@@ -26,26 +27,27 @@ img {
 div {
   display: inline-block;
   max-width: 25em;
+  padding: 1em;
+}
+
+.btn {
+  display: inline-block;
+  max-width: 25em;
+  padding: 1em;
 }
 
 h2 {
   color: black;
   font-weight: bold;
-  margin-bottom: 1.5rem;
-  margin-top: 0;
-}
-
-main {
-  display: inline-block;
-  max-width: 25em;
+  margin-bottom: 1em;
 }
 
 p {
   color: #333;
-  padding-bottom: 1em;
+  margin-bottom: 1em;
 }
 
-.btn {
+a {
   padding: .75em;
   border: 3px solid #333;
   border-radius: 7px;
